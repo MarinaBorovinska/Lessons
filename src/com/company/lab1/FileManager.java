@@ -19,7 +19,7 @@ public class FileManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("File is created");
+        System.out.println("File new_file.txt is created");
     }
 
     public void deleteFile(){
@@ -38,7 +38,7 @@ public class FileManager {
         }catch(Exception e){
             e.printStackTrace();
         }
-        scanner.close();
+
     }
 
     public void renameFile(){
@@ -80,8 +80,8 @@ public class FileManager {
                 break;
             }
         }
-        scannerFile.close();
-        scannerWord.close();
+  //      scannerFile.close();
+ //       scannerWord.close();
     }
 
     public void replaceWord(){
@@ -114,9 +114,9 @@ public class FileManager {
             System.out.println("Word replaced");
             writer.close();
 
-            scannerFile.close();
-            scannerWord.close();
-            scannerNewWord.close();
+  //          scannerFile.close();
+  //          scannerWord.close();
+  //          scannerNewWord.close();
         }
         catch (IOException ioe)
         {
