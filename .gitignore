@@ -1,0 +1,6 @@
+# User-specific configurations
+.idea
+*.iml
+
+# Output files
+out
